@@ -80,14 +80,14 @@ var app = new Vue({
                 {
                     "id":10,
                     icon:"🔊",
-                    name:"name10",
+                    name:"name11",
                     title:"Kids Cheering",
                     sound: './audio/kids-cheering.mp3'
                 },
                 {
                     "id":11,
                     icon:"🔊",
-                    name:"name11",
+                    name:"name12",
                     title:"Dalawang Beses",
                     sound: './audio/dalawang-beses.mp3'
                 }

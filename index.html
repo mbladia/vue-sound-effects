@@ -36,6 +36,7 @@
             <main class="main-box d-flex justify-content-center align-items-start ">
                 <div class="row w-100 m-0 justify-content-center align-items-center mt-5">
                     <div class="col-sm-2 btn-box m-1" v-for="item in items" :key="item.id" v-on:click="playAudio(item.name, item.id)">
+                        <span class="shorcut">{{item.id}}</span>
                         <span>{{item.title}}</span>
                         <span :id="'icon'+item.id" class="des-icon">{{item.icon}}</span>
                         <audio :id="item.name" :ref="item.name" :src="item.sound"></audio>
